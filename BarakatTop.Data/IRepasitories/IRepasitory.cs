@@ -1,9 +1,9 @@
-﻿using BarakatTop.Data.Contexts;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
+using BarakaTop.Domain.Commons;
 
 namespace BarakatTop.Data.IRepasitories;
 
-public interface IRepasitory<T> where T : AppDbContext
+public interface IRepasitory<T> where T : Auditable
 {
     ValueTask CreateAsync(T entity);
     void Update(T entity);
