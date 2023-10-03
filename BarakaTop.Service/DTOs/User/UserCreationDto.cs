@@ -7,5 +7,4 @@ public class UserCreationDto
     public string Phone { get; set; }
     public string Password { get; set; }
 
-    public long GroupId { get; set; }
 }
