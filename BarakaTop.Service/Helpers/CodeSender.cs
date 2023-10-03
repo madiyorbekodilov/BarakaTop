@@ -13,7 +13,7 @@ public class CodeSender
         {
             // Sender's email address and password
             string senderEmail = "odilovmadiyor029@gmail.com";
-            string senderPassword = "vgpriowtmqgogjse";
+            string senderPassword = "rzii yjyq hwvm cxyi";
 
             // Recipient's email address
             string recipientEmail = emaill;
