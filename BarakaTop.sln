@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarakaTop.Api", "BarakaTop.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarakatTop.Data", "BarakatTop.Data\BarakatTop.Data.csproj", "{40D4451E-37E2-4F9B-8E88-B6D9854174EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarakaTop.Domain", "BarakaTop.Domain\BarakaTop.Domain.csproj", "{55B47BF2-516E-43E9-9A2E-725A2A67C0BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40D4451E-37E2-4F9B-8E88-B6D9854174EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40D4451E-37E2-4F9B-8E88-B6D9854174EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40D4451E-37E2-4F9B-8E88-B6D9854174EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B47BF2-516E-43E9-9A2E-725A2A67C0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B47BF2-516E-43E9-9A2E-725A2A67C0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B47BF2-516E-43E9-9A2E-725A2A67C0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B47BF2-516E-43E9-9A2E-725A2A67C0BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
