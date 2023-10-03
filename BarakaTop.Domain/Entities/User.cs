@@ -9,6 +9,6 @@ public class User : Auditable
     public string Phone { get; set; }
     public string Password { get; set; }
 
-    public long GroupId { get; set; }
+    public long? GroupId { get; set; }
     public Group Group { get; set; }
 }
