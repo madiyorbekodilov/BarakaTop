@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarakaTop.Api", "BarakaTop.Api\BarakaTop.Api.csproj", "{04FC5773-760F-4110-BA29-08A403A3177F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarakatTop.Data", "BarakatTop.Data\BarakatTop.Data.csproj", "{40D4451E-37E2-4F9B-8E88-B6D9854174EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{04FC5773-760F-4110-BA29-08A403A3177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04FC5773-760F-4110-BA29-08A403A3177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04FC5773-760F-4110-BA29-08A403A3177F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D4451E-37E2-4F9B-8E88-B6D9854174EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D4451E-37E2-4F9B-8E88-B6D9854174EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D4451E-37E2-4F9B-8E88-B6D9854174EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D4451E-37E2-4F9B-8E88-B6D9854174EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
