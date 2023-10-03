@@ -2,7 +2,7 @@
 
 public class AlreadyExistException : Exception
 {
-    public int StatusCode { get; set; }
+    public int StatusCode { get; set; } = 403;
     public AlreadyExistException(string message) : base(message)
     { }
 
