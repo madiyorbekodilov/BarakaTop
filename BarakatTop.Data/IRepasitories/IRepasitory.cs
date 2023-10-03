@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BarakatTop.Data.Contexts;
+using System.Linq.Expressions;
 
-namespace BarakatTop.Data.IRepasitories
+namespace BarakatTop.Data.IRepasitories;
+
+public interface IRepasitory<T> where T : AppDbContext
 {
-    internal class IRepasitory
-    {
-    }
+    ValueTask CreateAsync(T entity);
+    void Update(T entity);
+    void Delete(T entity);
+    void Destroy(T entity);
+    ValueTask<T> SelectAsync(Expression<Func<T, bool>> expression, string[] includes = null);
+    IQueryable<T> SelectAll(Expression<Func<T, bool>> expression = null, bool isNoTracked = true, string[] includes = null);
+    ValueTask SaveAsync();
 }
